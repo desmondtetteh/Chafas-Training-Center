@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <link rel="stylesheet" href="styles.css"> -->
+
+  <title>Visit Canada</title>
+
+  <style>
+
+
+/* General Styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background:#5f020c;
+  backdrop-filter:blur(12px);
+-webkit-backdrop-filter:blur(12px);
+}
+
+header {
+    height: 80vh;
+    width:100%;
+    background-image: linear-gradient( rgba(0,0,0,0.7)50%,rgba(0,0,0,0.7)50%), url(visit.webp);
+    background-position:center;
+    background-size: cover;
+    border-radius: 10px;
+    max-width: 100%;
+    margin-top: -25px;
+}
+header h1{
+    width: 100%;
+    padding: 2%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: #fff;
+}
+
+nav ul {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+ 
+}
+
+nav ul li {
+    width: 100%;
+   display:flex; 
+   flex-direction: row;
+  align-items: center;
+  justify-content: center;
+ margin:0 20px;
+}
+
+nav ul li a {
+width: 100%;
+display: flex;
+flex-direction: row;
+align-items: center;
+ justify-content: center;
+color: #fafafa;
+text-decoration: none;
+font-size: 26px;
+}
+
+.view{
+    display: flex;
+    justify-content:center;
+
+}
+
+
+.view2{
+    display: flex;
+    justify-content: space-around;
+}
+
+nav h3{
+    width: 100%;
+    line-height: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: #b96b04;
+    font-size: 30px;
+}
+nav h4{
+    width: 100%;
+    line-height: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: #fff;
+    
+}
+
+
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.container .process-section{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+
+}
+.container h2{
+    width: 100%;
+    display: flex;
+    background: #0c0c0c;
+    color: #fff;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    align-items: center;
+    justify-content: center;
+}
+ .process-section .container h5{
+    width: 50%;
+    display: flex;
+    background: #0c0c0c;
+    border-radius: 20px;
+    width:fit-content;
+    padding: 6px;
+    backdrop-filter:blur(12px);
+        -webkit-backdrop-filter:blur(12px);
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h5{
+    width: 100%;
+    color: #fff;
+    font-size: 25px;
+    margin: 42px auto 0 10px;
+    backdrop-filter:blur(12px);
+    -webkit-backdrop-filter:blur(12px);
+}
+ .container .text{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    backdrop-filter:blur(12px);
+        -webkit-backdrop-filter:blur(12px);
+        background: #b96b04;
+    border-radius: 20px;
+    padding: 5px;
+    overflow: hidden;
+    padding: 0 6px;
+
+}
+
+.process-section  p{
+  color: #fff;
+}
+
+.container .text:hover{
+    box-shadow:  1px 0 0 2px  #0c0c0c;
+    color:#0e36ad;
+    backdrop-filter:blur(12px);
+   -webkit-backdrop-filter:blur(12px);
+    
+
+}
+
+.image-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.image-gallery img {
+  width: 300px;
+  margin: 10px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+
+/* ////////////////////////////////////////mobile view */
+
+
+
+ @media(max-width:700px){
+    header{
+        width: 100%;
+        background-size: cover;
+        height: 70vh;
+        position:relative;
+        max-width: 200%;
+        font-size: 19px;
+        display: flex;
+        flex-wrap: wrap-reverse;
+        align-items: center;
+        justify-content: center;
+        padding:0 1px;
+        margin: 0 12px auto 8px;
+
+    }
+
+    header h1{
+        font-size:29px;
+        padding: 10px;
+        margin-top: -2px;
+        
+    }
+
+    nav ul{
+        width: 91%;
+        height: 50px;
+        position:absolute;
+        background-color: #d07104;
+        justify-content: center;
+        border-radius: 1px;
+        text-align: center;
+        text-overflow:unset;
+        top: -15px;
+        
+    }
+
+    nav ul li{
+        width: 100%;
+
+        margin:0 34px;
+        display:flex;
+        flex-direction: row;
+
+    
+    }
+
+    nav ul li a{
+        width:fit-content;
+        font-size: 15px;
+        display: flex;
+        padding:5px;
+        align-items:center;
+        border-bottom-right-radius: 10px;
+        border-top-left-radius: 6px;
+        justify-content: center;
+        background-color: #05838c;
+    }
+
+
+    nav .intro{
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    nav .intro h2{
+        text-align: center;
+        color: #05838c;
+    }
+    header h1{
+        color: #05838c;
+    }
+    nav .intro h4{
+        color: #b96b04;
+    }
+ }
+
+
+
+/* //////////////////////////text2 */
+
+.requirements-section h2{
+  text-align: center;
+  background:#0c0c0c;
+  color: #5f020c;
+  width: 100%;
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+ .requirements-section .text2{
+  width: 50%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  color:#d07104;
+}
+.requirements-section{
+  background: #333;
+  width: 65%;
+  border-radius: 2%;
+  padding: 1%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/* //////////////////////// view mobile */
+@media(max-width:890px){
+.requirements-section{
+  width:100%;
+}
+.requirements-section .text2 p{
+  text-align: center;
+  width: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.process-section .container{
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+}
+
+
+
+
+
+
+
+
+
+  </style>
+  
+</head>
+<body>
+
+  <header>
+    <h1>Visit Canada</h1>
+    <nav >
+      <ul class="view" >
+      <div class="view2"> 
+      
+        <li><a href="#process">Visa Process</a></li>
+        <li><a href="#requirements">Requirements</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+
+        <div>
+      </ul>
+
+
+      <div class="intro">
+        <h3> Welcome to</h3> <h2>CHAFAS TRAVELS</h2>
+            <h4> we specialize in providing expert assistance
+             and support for all your travel needs.</h4>
+            
+     </div>
+    </nav>
+  </header>
+
+  <section id="process" class="process-section">
+    <div class="container">
+      <h2>Visa Process</h2>
+
+      <div class="text">
+      <p>
+       <h5> Research: </h5>Understand the requirements and eligibility criteria for the visit visa of the country you plan to visit.
+
+<h5>Application Form:</h5> Fill out the visa application form accurately and completely.
+
+<h5>Documentation:</h5> Gather necessary documents such as passport, visa application fee, photographs, travel itinerary, proof of accommodation, financial documents, and any additional required paperwork.
+
+<h5>Submission:</h5> Submit the completed application form and supporting documents to the appropriate visa application center or embassy/consulate.
+
+<h5>Biometrics: </h5>Attend any required biometric appointments to provide fingerprints and/or photographs.
+
+<h5>Interview (if applicable):</h5> Attend an interview with a consular officer, if required by the visa application process.
+
+<h5>Processing: </h5>Wait for the visa application to be processed. Processing times vary depending on the country and type of visa.
+
+<h5>Decision:</h5> Receive a decision on your visa application. This may be in the form of an approval, rejection, or request for additional information.
+<br>
+<h5>Collection:</h5> If approved, collect your visa and passport from the visa application center or embassy/consulate.
+
+<h5>Travel:</h5> Plan your travel arrangements and ensure compliance with the visa conditions during your visit.
+
+      </p>
+
+    </div>
+
+    </div>
+  </section>
+
+  <section id="requirements" class="requirements-section">
+    <div class="cont">
+      <h2>Requirements</h2>
+      <div class="text2">
+      <p>
+        
+<h5>Valid Passport: </h5>You must have a valid Ghanaian passport with a minimum validity period, usually six months beyond your intended stay in Canada.
+
+
+<h5>Visa Application Form:</h5> Complete the appropriate visa application form accurately and honestly. This may vary depending on the type of visit visa you are applying for.
+
+
+<h5>Passport-sized Photographs: </h5> Provide recent passport-sized photographs meeting the specifications outlined by the Canadian visa office.
+
+
+<h5>Proof of Funds:  </h5> Demonstrate that you have sufficient funds to cover your expenses during your stay in Canada. This may include bank statements, sponsorship letters, or other financial documents.
+
+<h5>Travel Itinerary:</h5>  Provide details of your travel plans, including flight reservations, accommodation arrangements, and intended duration of stay in Canada.
+
+
+<h5>Purpose of Visit: </h5> Clearly state the purpose of your visit to Canada, whether it's for tourism, visiting family or friends, attending a conference, or any other legitimate reason.
+
+
+<h5>Letter of Invitation (if applicable): </h5> If you have been invited by a Canadian citizen or permanent resident, provide a letter of invitation from your host detailing the purpose and duration of your visit.
+
+
+<h5>Medical Examination (if applicable):</h5>  Depending on the duration and purpose of your visit, you may be required to undergo a medical examination by a designated physician.
+
+
+<h5>Police Clearance Certificate: </h5> Provide a police clearance certificate or proof of good conduct from the relevant authorities in Ghana.
+
+
+<h5>Proof of Ties to Ghana:</h5> Demonstrate strong ties to Ghana, such as employment, property ownership, family relationships, or other commitments that indicate your intention to return to Ghana after your visit to Canada.
+
+
+<h5>Other Supporting Documents:</h5> Depending on your individual circumstances and the specific requirements of the visa office, you may need to provide additional supporting documents
+
+    </p>
+</div>
+      <!-- Add more content as needed -->
+    </div>
+  </section>
+
+  <section id="gallery" class="gallery-section">
+    <div class="container">
+      <h2>Cities You Can Visit</h2>
+      <div class="image-gallery">
+        <img src="visit img.jpeg" alt="Visit to Canada">
+        <img src="visit img 2.jpeg" alt="Visit to Canada">
+        <img src="visit img 4.jpg" alt="Visit to Canada">
+        <!-- Add more images as needed -->
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 __Chafas Travels__all rights reserved</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

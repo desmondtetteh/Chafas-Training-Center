@@ -1,0 +1,196 @@
+.sbody{
+    font-family:poppins;
+    background-image: url(logo1.jpg);
+    background-size: cover;
+    background-position:center;
+    min-height: 100vh;
+    background-color:#5f020c;
+}
+.contain .owl-carousel .content-area .content{
+    margin-top:-12px;
+    
+}
+
+#slider{
+    margin-top: 15%;
+}
+.image-area{
+    width: 30%;
+    border-radius: 50%;
+    /* display: inline-block; */
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+
+.image-area img{
+    width: 100%;
+
+}
+
+.content{
+    text-align: center;
+    padding: 40px;
+    height: 450px;
+    color: #ffffff;
+    border-radius: 25px;
+    background-color: rgba(225,225,225,0.08);
+    backdrop-filter:blur(12px);
+    -webkit-backdrop-filter:blur(12px);
+
+
+}
+.content h2{
+font-size: 20px; 
+font-weight: 700;
+margin-top: 20px;
+text-transform: uppercase;
+margin-bottom: 20px;
+
+}
+
+
+.content p{
+    line-height: 1;
+    font-size: 15px
+    
+}
+.socilas{
+    margin-top: 30px;
+    
+
+}
+
+.socials i{
+
+    font-size: 20px;
+     margin:0 10px;
+
+}
+
+.owl-dot{
+    height: 20px !important;
+    width: 20px !important;
+    background-color: #ddd !important;
+    opacity: .8;
+    margin: 0 10px;
+    border-radius: 50%;
+
+}
+
+.owl-dots{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 3%;
+}
+
+.owl-dot.active{
+    background-color: #fff !important;
+}
+
+.owl-nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.owl-prev{
+    font-weight: 900;
+    width: 100px;
+}
+
+.owl-next{
+    font-weight: 900;
+    width: 100px;
+}
+
+
+
+
+/* /////////////////header  training course*/
+.sbody .TC {
+
+    margin-bottom: -30px;
+    display: flex;
+    color:#FFBD33;
+    justify-content: center;
+    align-items: center;
+    padding: 4%;
+    width:fit-content;
+    height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50px;
+    
+    
+}
+ 
+
+/* .TC{
+    
+    width: fit-content;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    font-size: 26px;
+    backdrop-filter:blur(12px);
+    -webkit-backdrop-filter:blur(12px);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding:0%;
+} */
+.TC:hover{
+    background-color:#bdb88e06;
+    color: #ab6d03;
+}
+
+
+
+
+.sbody p{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #050404fb;
+    font-weight: bold;
+}
+
+
+/* //////////////media screen */
+
+
+@media(max-width:1200px){
+    .sbody{
+        background-color: #03053f;
+    }
+.sbody .TC{
+    width: 90%;
+    text-align: center;
+    justify-content: center;
+    height: 10px;
+    background:#000000;
+    color:#FFBD33;
+    margin-top: 20px;
+    border-radius: 20px;
+    
+}
+.TC h4{
+    color: #FFBD33;
+}
+
+.contain .content{
+    color: #f8b117;
+    font-size: 16px;
+}
+.content{
+    width:100%;
+    height: 380px;
+}
+
+.content a{
+color: #ffffff;
+}
+
+ 
+}
+
